@@ -1,0 +1,6 @@
+---
+test-service:
+  response_time: 0.7
+  throughput: 2000
+  error_rate: 1
+  apm_name: "test-service"

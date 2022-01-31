@@ -1,0 +1,10 @@
+#!/bin/bash
+
+declare -A EFS_MAP
+EFS_MAP["10.10.1.73:/export/dev-vpsa"]="10.4.1.25:/oleshare"
+EFS_MAP["10.10.1.73:/export/oleshare"]="10.4.1.25:/smoke-efs"
+EFS_MAP["10.10.1.73:/export/prod-clone-0712"]="10.4.1.25:/cert-efs"
+EFS_MAP["10.10.1.88:/export/vpsa-share"]="10.4.102.184:/perf-efs"testtest1test2test3testtest1test2test3-efs-efs
+
+
+export EFS_MAP
